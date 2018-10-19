@@ -6,8 +6,9 @@ export default class Top extends React.Component {
     return (
         <Menu inverted borderless>
           <Container>
-            <Menu.Item><Image style={{ height: '65px' }}
-                              src='https://static1.squarespace.com/static/5ae0f2cbe2ccd119c3eccd8e/t/5af37dcf758d466a3476257f/1538497217606/?format=1500w'/></Menu.Item>
+            <Menu.Item>
+              <Image style={{ height: '65px' }} src='/images/clglogo.png'/>
+            </Menu.Item>
             <Menu.Item position='right' as='a'>NEWS</Menu.Item>
             <Dropdown item text="TEAMS" icon='null'>
               <Dropdown.Menu>

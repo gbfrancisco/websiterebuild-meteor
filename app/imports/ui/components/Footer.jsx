@@ -25,20 +25,16 @@ export default class Footer extends React.Component {
             </Grid.Row>
             <Grid.Row>
               <Item as='a'>
-                <Image size='small'
-                       src='https://static1.squarespace.com/static/5ae0f2cbe2ccd119c3eccd8e/5aea219c0e2e72be49d0e432/5aea21ad70a6addb4c996dd9/1528407340140/twitch_l.png?format=300w'/>
+                <Image size='small' src='/images/twitch.png'/>
               </Item>
               <Item as='a'>
-                <Image size='small'
-                       src='https://static1.squarespace.com/static/5ae0f2cbe2ccd119c3eccd8e/5aea219c0e2e72be49d0e432/5aea237388251b0448f22019/1532632640550/corsair_l.png?format=300w'/>
+                <Image size='small' src='/images/corsair.png'/>
               </Item>
               <Item as='a'>
-                <Image size='small'
-                       src='https://static1.squarespace.com/static/5ae0f2cbe2ccd119c3eccd8e/5aea219c0e2e72be49d0e432/5b106f291ae6cfec74fe984f/1532632615180/Spectrum_Logo_White_V1'/>
+                <Image size='small' src='/images/spectrum.png'/>
               </Item>
               <Item as='a'>
-                <Image size='small'
-                       src='https://static1.squarespace.com/static/5ae0f2cbe2ccd119c3eccd8e/5aea219c0e2e72be49d0e432/5b10712f8a922d4107363db8/1532632625458/SQSP_Logo_White_V1.png?format=300w'/>
+                <Image size='small' src='/images/squarespace.png'/>
               </Item>
             </Grid.Row>
             <Grid.Row id='footer-text'>
